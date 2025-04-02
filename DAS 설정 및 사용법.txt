@@ -1,0 +1,25 @@
+[Downdetector 감시 Tool 초기설정]
+1. Chrome → 설정 → 확장프로그램 → 개발자모드on → full Capt(이미지+단축키) 압축해제 →"압축해제된 확장 프로그램을 로드합니다" 클릭 → 압축해제한 full capt 폴더 설정
+2. Chrome → 설정 → 다운로드 → 위치 설정/Tool 접속 → 설정 → Chrome 저장경로와 다운로드 경로 일치 (보통 압축파일에 Chrome저장 폴더로 지정)
+3. Chrome → 설정 → 언어 → Google 번역 사용 해제
+4. C:\Users\사용자이름\AppData\Local\Google\Chrome\User Data\Default → Preferences 파일 txt 열기
+   → Ctrl + F - exit_type 찾기 → Crashed 문자열 Normal 문자로 변경 후 Ctrl + S(저장)
+   → Preferences 파일을 우클릭 – 속성 – 읽기 전용(체크) 활성화
+5. 내 PC 우클릭 → 속성 → 고급 시스템 설정 보기 검색 → 고급 탭 - 성능 [설정] → 고급 탭 - 가상 메모리 [변경] → 자동 관리 해제 → 사용자 지정 크기 활성화
+   → 처음 크기 - 권장 페이징 파일 크기의 2배, 최대 크기 현재 페이징 파일 크기의 2배 → 확인 및 적용 후 컴퓨터 재시작
+
+[Downdetector 감시 Tool 사용법]
+1. 가시/가청 OFF : 가시/가청 기능 ON/OFF 기능
+2. 감시 OFF : 5분 단위로 라인 Search
+3. 수동 수집 : 모든 국가 사업자 한번에 확인 후 5분 단위로 라인 Search
+4. 설정 : 저장위치 및 address 변경
+5. 종료 : App 종료
+6. UI 기능 사용 시 Data 수집 즉시 중지 후 다음 Schedule 실행
+
+
+[단축키]
+F4 : 강제 종료
+F11 :전체화면
+
+[DAS 실행파일 위치]
+DAS\dist\DAS#DAS.exe
